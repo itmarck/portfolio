@@ -1,4 +1,5 @@
 {
+  "name": "ryuk",
   "private": true,
   "scripts": {
     "build": "nuxt build",
