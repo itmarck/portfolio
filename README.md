@@ -1,28 +1,42 @@
----
-title: ExpressJS
-description: An ExpressJS server
-tags:
-  - express
-  - typescript
----
+# Nuxt 3 Minimal Starter
 
-# ExpressJS Example
+Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
-This example starts an [ExpressJS](https://expressjs.com/) server.
+## Setup
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Fexpressjs)
+Make sure to install the dependencies:
 
-## ✨ Features
+```bash
+# yarn
+yarn install
 
-- Express
-- TypeScript
+# npm
+npm install
 
-## 💁‍♀️ How to use
+# pnpm
+pnpm install --shamefully-hoist
+```
 
-- Install dependencies `yarn`
-- Connect to your Railway project `railway link`
-- Start the development server `railway run yarn dev`
+## Development Server
 
-## 📝 Notes
+Start the development server on http://localhost:3000
 
-The server started simply returns a `Hello: "World"` payload in JSON. The server code is located in `src/index.js`.
+```bash
+npm run dev
+```
+
+## Production
+
+Build the application for production:
+
+```bash
+npm run build
+```
+
+Locally preview production build:
+
+```bash
+npm run preview
+```
+
+Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
