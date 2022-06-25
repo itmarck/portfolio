@@ -395,7 +395,7 @@ useHead({
   }
 }
 .spotlight {
-  background: linear-gradient(45deg, #00dc82 0%, #36e4da 50%, #0047e1 100%);
+  background: linear-gradient(45deg, #e28409 0%, #5c5c5c 50%, #86d10e 100%);
   filter: blur(20vh);
   height: 50vh;
   bottom: -40vh;
@@ -414,35 +414,17 @@ useHead({
   backdrop-filter: blur(10px);
   width: 100%;
 }
-@media (prefers-color-scheme: light) {
-  .gradient-border {
-    background-color: #ffffff4d;
-  }
-  .gradient-border:before {
-    background: linear-gradient(
-      90deg,
-      #e2e2e2 0%,
-      #e2e2e2 25%,
-      #00dc82 50%,
-      #36e4da 75%,
-      #0047e1 100%
-    );
-  }
+.gradient-border {
+  background-color: #1414144d;
 }
-@media (prefers-color-scheme: dark) {
-  .gradient-border {
-    background-color: #1414144d;
-  }
-  .gradient-border:before {
-    background: linear-gradient(
-      90deg,
-      #303030 0%,
-      #303030 25%,
-      #00dc82 50%,
-      #36e4da 75%,
-      #0047e1 100%
-    );
-  }
+.gradient-border:before {
+  background: linear-gradient(
+    90deg,
+    #303030 0%,
+    #303030 25%,
+    #e28409 65%,
+    #86d10e 100%
+  );
 }
 .gradient-border:before {
   content: "";
