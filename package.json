@@ -1,8 +1,10 @@
 {
-  "name": "ryuk",
+  "name": "portfolio",
+  "description": "Personal portfolio website",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "node .output/server/index.mjs",
+    "start": "nuxt start",
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
